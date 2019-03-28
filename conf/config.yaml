@@ -1,0 +1,16 @@
+runmode: debug
+port: 80
+name: apiserver
+url: http://127.0.0.1
+max_ping_count: 11
+gormlog: true
+db:
+  name: apiserver
+  host: 127.0.0.1
+  username: root
+  password: guning666
+docker_db:
+  name: apiserver
+  host: 127.0.0.1
+  username: root
+  password: guning666

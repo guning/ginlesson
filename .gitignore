@@ -1,0 +1,3 @@
+framework.learning
+vendor/*
+!vendor/vendor.json
