@@ -149,6 +149,12 @@
 			"revisionTime": "2018-07-18T01:23:57Z"
 		},
 		{
+			"checksumSHA1": "Tutue3nEgM/87jitUcYv6ODwyNE=",
+			"path": "github.com/satori/go.uuid",
+			"revision": "b2ce2384e17bbe0c6d34077efa39dbab3e09123b",
+			"revisionTime": "2018-10-28T12:50:25Z"
+		},
+		{
 			"checksumSHA1": "HcOjO9+cwl+xYnkiGuIeesqwBs8=",
 			"path": "github.com/spf13/afero/mem",
 			"revision": "f4711e4db9e9a1d3887343acb72b2bbfc2f686f5",
@@ -171,6 +177,12 @@
 			"path": "github.com/ugorji/go/codec",
 			"revision": "2dc34c0b87808deb8e2c69e1625db4c14e5d0d4a",
 			"revisionTime": "2019-03-20T09:00:25Z"
+		},
+		{
+			"checksumSHA1": "pZkVBaSbtQM532WPucbl1G3nNY8=",
+			"path": "github.com/willf/pad",
+			"revision": "eccfe5d84172e4f9dfd83fac9ed3a5f0eafbc2b4",
+			"revisionTime": "2019-02-07T18:39:01Z"
 		},
 		{
 			"path": "golang.org/x/crypto/bcrypt",

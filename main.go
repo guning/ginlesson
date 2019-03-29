@@ -9,6 +9,7 @@ import (
 	"framework.learning/config"
 	"framework.learning/model"
 	"framework.learning/router"
+	"framework.learning/router/middleware"
 
 	"github.com/gin-gonic/gin"
 	"github.com/spf13/pflag"
@@ -31,7 +32,10 @@ func main() {
 	// Create the Gin engine.
 	g := gin.New()
 
-	middlewares := []gin.HandlerFunc{}
+	middlewares := []gin.HandlerFunc{
+	    middleware.Logging(),
+	    middleware.RequestId(),
+	}
 
 	// Routes.
 	router.Load(
